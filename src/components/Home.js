@@ -4,7 +4,7 @@ const Home = () => {
   return (
     <>
     <div className="h-screen w-full flex justify-center items-center">
-        <h1 className='text-6xl font-semibold text-gray-200'>Chat App</h1>
+        <h1 className='text-6xl font-semibold text-gray-200'>Real time chat-app</h1>
     </div>
     </>
   )
