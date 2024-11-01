@@ -1,3 +1,5 @@
+'use client'
+
 import React from "react";
 import { Disclosure } from "@headlessui/react";
 import { GiHamburgerMenu } from "react-icons/gi";

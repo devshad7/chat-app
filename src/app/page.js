@@ -1,12 +1,10 @@
-// src/pages/_app.js
-import "./globals.css";
-import SideNavbar from "@/components/SideNavbar"; // Correct import path
+import SideNavbar from '@/components/SideNavbar'
+import React from 'react'
 
-export default function App({ Component, pageProps }) {
+export default function page() {
   return (
     <>
-      <SideNavbar />
-      <Component {...pageProps} />
+    <SideNavbar />
     </>
-  );
+  )
 }
