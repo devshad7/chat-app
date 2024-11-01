@@ -1,10 +1,12 @@
-import Home from "@/components/Home";
+// src/pages/_app.js
+import "./globals.css";
+import SideNavbar from "@/components/SideNavbar"; // Correct import path
 
-
-export default function page() {
+export default function App({ Component, pageProps }) {
   return (
     <>
-      <Home />
+      <SideNavbar />
+      <Component {...pageProps} />
     </>
   );
 }
